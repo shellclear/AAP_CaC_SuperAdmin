@@ -1,0 +1,14 @@
+---
+controller_projects:
+  - name: "{{ orgs }} {{ env }} CasC_Data"
+    description: "Project to include Casc_Data"
+    organization: "{{ orgs }}"
+    scm_type: "git"
+    scm_url: "git@github.com:shellclear/AAP_CaC_SuperAdmin.git"
+    scm_branch: "main"
+    scm_clean: false
+    scm_delete_on_update: false
+    scm_update_on_launch: true
+    scm_update_cache_timeout: 0
+    allow_override: true
+...
