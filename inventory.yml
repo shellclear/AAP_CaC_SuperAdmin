@@ -2,7 +2,4 @@
 dev:
   hosts:
     aap-virtualization-migration.apps-crc.testing:
-prod:
-  hosts:
-    aap-virtualization-migration.apps-crc.testing:
 ...
