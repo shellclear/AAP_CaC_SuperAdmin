@@ -1,0 +1,7 @@
+---
+aap_organizations:
+  - name: "superadmin"
+    description: "Organization superadmin"
+  - name: "dummyorg"
+    description: "Organization dummyorg"
+...
