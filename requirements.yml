@@ -1,0 +1,5 @@
+---
+collections:
+  - name: infra.aap_configuration
+  - name: infra.aap_configuration_extended
+...
