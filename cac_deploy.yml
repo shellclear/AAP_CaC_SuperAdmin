@@ -8,7 +8,9 @@
     aap_password: "{{ vault_aap_password | default(lookup('env', 'CONTROLLER_PASSWORD')) }}"
     aap_hostname: "{{ vault_aap_hostname | default(lookup('env', 'CONTROLLER_HOST')) }}"
     aap_validate_certs: "{{ vault_aap_validate_certs | default(lookup('env', 'CONTROLLER_VERIFY_SSL')) }}"
-
+    aap_automation_hub_certified_token: "{{ vault_aap_seed_automation_hub_certified_token | default(lookup('env', 'ANSIBLE_GALAXY_SERVER_AUTOMATION_HUB_CERTIFIED_TOKEN')) }}"
+    aap_automation_hub_validated_token: "{{ vault_aap_seed_automation_hub_validated_token | default(lookup('env', 'ANSIBLE_GALAXY_SERVER_AUTOMATION_HUB_VALIDATED_TOKEN')) }}"
+    ansible_vault_password_cac: "{{ vault_password_cac | default(lookup('env', 'ANSIBLE_VAULT_PASSWORD_CAC')) }}"
   pre_tasks:
     - name: "Setup authentication (block)"
       when: aap_oauthtoken is not defined

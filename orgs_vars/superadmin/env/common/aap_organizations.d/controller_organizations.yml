@@ -2,6 +2,9 @@
 aap_organizations:
   - name: "superadmin"
     description: "Organization superadmin"
+    galaxy_credentials:
+      - "{{ orgs }} {{ env }} Red Hat Automation Hub Certified"
+      - "{{ orgs }} {{ env }} Red Hat Automation Hub Validated"
   - name: "dummyorg"
     description: "Organization dummyorg"
 ...
