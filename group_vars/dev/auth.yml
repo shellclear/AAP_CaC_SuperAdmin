@@ -1,8 +1,8 @@
 ---
-vault_aap_username: "admin"
+# vault_aap_username: ""
 # vault_aap_password: ""
 vault_aap_hostname: "{{ groups['dev'][0] }}"
-vault_aap_validate_certs: false
+# vault_aap_validate_certs: false
 # vault_aap_seed_automation_hub_certified_token: ""
 # vault_aap_seed_automation_hub_validated_token: ""
 # vault_password_cac: ""
