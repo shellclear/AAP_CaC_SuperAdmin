@@ -4,6 +4,7 @@ controller_projects:
     description: "Project to include Casc_Data"
     organization: "{{ orgs }}"
     scm_type: "git"
+    # scm_credential: ""
     scm_url: "https://github.com/shellclear/AAP_CaC_SuperAdmin.git"
     scm_branch: "main"
     scm_clean: false

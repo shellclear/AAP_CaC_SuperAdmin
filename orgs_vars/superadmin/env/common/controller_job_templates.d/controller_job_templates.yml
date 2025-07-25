@@ -7,6 +7,7 @@ controller_templates:
     inventory: "{{ orgs }} {{ env }} Localhost"
     playbook: "cac_deploy.yml"
     job_type: "run"
+    # execution_environment: ""
     fact_caching_enabled: false
     credentials:
       - "{{ orgs }} {{ env }} AAP Credential"
